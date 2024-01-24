@@ -1,0 +1,24 @@
+<!-- <p>My name is {{dynName}}</p>
+
+<p>{{"Welcome " + dynName}}</p>
+
+<p>{{5+5}}</p>
+
+<p>{{dynName.toUpperCase()}}</p>
+
+<p>{{myMethod
+    ()}}</p>
+
+
+    <br><br>
+
+    {{appStatus ? "Online" : "Offline"}} -->
+
+    <!-- {{appStatus ? status1 : status2}} -->
+
+<input type="text"  [disabled]="enable" id="" [value]="appStatus ? status1 : status2">
+
+<br><br>
+
+<input type="text" [hidden]="!enable" id="" bind-value="appStatus ? status1 : status2">
+
